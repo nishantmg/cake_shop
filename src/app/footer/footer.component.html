@@ -1,0 +1,22 @@
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button (click)="navigateTab('/cakes/cart')">
+          <ion-label>Cart</ion-label>
+          <ion-icon name="cart"></ion-icon>
+        </ion-tab-button>
+        
+        <ion-tab-button (click)="navigateTab('/home')">
+          <ion-label>Home</ion-label>
+          <ion-icon name="home"></ion-icon>
+        </ion-tab-button>
+        
+        <ion-tab-button>
+          <ion-label>Today's Specials</ion-label>
+          <ion-icon name="gift"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

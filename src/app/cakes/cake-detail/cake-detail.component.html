@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Chocolate Cake</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="background">
+  <ion-card class="image">
+    <div class="image">
+      <img src="../../../assets/images/cake3.jpg">
+    </div>
+  </ion-card>
+  <ion-fab vertical="center" horizontal="end">
+    <ion-fab-button (click)="presentModal()" color="danger">
+      <ion-icon name="cart"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Price
+      </ion-card-title>
+      <ion-card-subtitle>
+        Rs200/Pound
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-header>
+      <ion-card-title>
+        Ingredients
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div>3/4 cups butter or margarine,
+        softened 3 eggs,
+        2 cups sugar,
+        2 cups flour,
+        3/4 cup unsweetened cocoa powder,
+        1 teaspoon baking soda,
+        3/4 teaspoon baking powder,
+        2 teaspoon vanilla,
+        1 1/2 cup milk</div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<app-footer></app-footer>
